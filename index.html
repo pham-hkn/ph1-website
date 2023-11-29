@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <header>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ph1 POSSE webサイト</title>
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
+        <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/sp/style.css" />
+    </header>
     <body>
     <header class="header"> 
         <a href="./" class="header-logo"> 
         <img src="./assets/img/logo.svg" alt="POSSE">
     </a>
+    <button class="header-button">
+        <span class="header-buttonLine"></span>
+        <span class="header-buttonLine"></span>
+        <span class="header-buttonLine"></span>
+    </button>
     <nav class="header-nav">
         <ul class="header-navList">
             <li class="header-navItem">
@@ -153,62 +162,142 @@
             <div class="section-lead">
                 <p>様々な日々の活動について紹介します。<br> POSSEでは、プログラミングを学んでいくにあたってメンバー同士が共に学習するような時間を数多く設けています。<br> 入会時期が半年毎にあるため、縦の繋がりから学べることは非常に多く、この繋がりを意識した班を構成したり、<br> それとは別に同期のみの班を構成して共に学習するようなシステムを採用しています。</p>
             </div>
-            <div>
-                <div>
-                    <ul>
-                        <li>
-                            <figure>
+            <div class="section-body">
+                <div class="container">
+                    <div class="daily-slide">
+                    <ul class="daily-list">
+                        <li class="daily-item">
+                            <figure class="daily-itemImage">
                                 <img src="./assets/img/img-daily01.jpg" alt="">
                             </figure>
-                            <div>
-                                <h2>
-　　　　　　　　　　　　　　　　　　　<span>01</span><span>ミートアップ</span>
+                            <div class="daily-itemBody">
+                                <h2 class="daily-title">
+　　　　　　　　　　　　　　　　　　　<span class="daily-titleNumber">01</span><span class="daily-titleText">ミートアップ</span>
                                 </h2>
-                                <ul>
-                                    <li>毎週月曜日　19：30～22：30</li>
-                                    <li>全員参加</li>
+                                <ul class="daily-outline">
+                                    <li class="daily-outlineItem">毎週月曜日　19：30～22：30</li>
+                                    <li class="daily-outlineItem">全員参加</li>
                                 </ul>
-                                <div>
+                                <div class="daily-description">
                                     <p>全体ミーティングです。<br> 各局からのお知らせや、講演会など目白押しです。</p>
                                 </div>
-                            </div>
+                                </div>
+                            
                         </li>
-                        <li>
-                            <figure>
-                                <img src="" alt="">
+                        <li class="daily-item">
+                            <figure class="daily-itemImage">
+                                <img src="./assets/img/img-event02.jpg" alt="">
                             </figure>
-                            <div>
-                                <h2>
-                                    <span>02</span><span>縦もく</span>
+                            <div class="daily-itemBody">
+                                <h2 class="daily-title">
+                                    <span class="daily-titleNumber">02</span><span class="daily-titleText">縦もく</span>
                                 </h2>
-                                <ul>
-                                    <li>週1回2時間</li>
+                                <ul class="daily-outline">
+                                    <li class="daily-outlineItem">週1回2時間</li>
                                 </ul>
-                                <div><p>期生関係なくzoomを繋ぎ、わからないところを先輩に質問できます。わかるまで丁寧に教えてくれます。</p></div>
+                                <div class="daily-description"><p>期生関係なくzoomを繋ぎ、わからないところを先輩に質問できます。わかるまで丁寧に教えてくれます。</p></div>
                             </div>
                         </li>
-                        <li>
-                            <figure>
-                                <img src="" alt="">
+                        <li class="daily-item">
+                            <figure class="daily-itemImage">
+                                <img src="./assets/img/img-event03.jpg" alt="">
                             </figure>
-                            <div>
-                                <h2>
-                                    <span>03</span><span>横もく</span>
+                            <div class="daily-itemBody">
+                                <h2 class="daily-title">
+                                    <span class="daily-titleNumber">03</span><span class="daily-titleText">横もく</span>
                                 </h2>
-                                <ul>
-                                    <li>週1回 3時間</li>
+                                <ul class="daily-outline">
+                                    <li class="daily-outlineItem">週1回 3時間</li>
                                 </ul>
-                                <div>同期と3～4人一組で学習しながら、わからないところを共有、質問できます。オフラインで集合したり、共にハッカソンに挑んだりします。</div>
+                                <div class="daily-description">同期と3～4人一組で学習しながら、わからないところを共有、質問できます。オフラインで集合したり、共にハッカソンに挑んだりします。</div>
                             </div>
                         </li>
-                        <li></li>
+                        <li class="daily-item">
+                            <figure class="daily-itemImage">
+                                <img src="./assets/img/img-event04.jpg" alt="">
+                            </figure>
+                            <div class="daily-itemBody">
+                                <h2 class="daily-title">
+                                    <span class="daily-titleNumber">04</span><span class="daily-titleText">スぺもく</span>
+                                </h2>
+                                <ul class="daily-description">
+                                    <li class="daily-outlineItem">週1回1時間</li>
+                                    <li class="daily-outlineItem" >自由参加</li>
+                                </ul>
+                                <div class="daily-description">
+                                    メンターさんからのアドバイスを受けることができます。<br> 毎回得る知識が多く、とてもありがたい機会です。
+                                </div>
+                                <li class="daily-item">
+                                    <figure class="daily-itemImage">
+                                        <img src="./assets/img/img-event05.jpg" alt="">
+                                    </figure>
+                                    <div class="daily-itemBody">
+                                        <h2 class="daily-title">
+                                            <span class="daily-titleNumber">05</span><span class="daily-titleText">飯もく</span>
+                                        </h2>
+                                        <ul class="daily-outline">
+                                            <li class="daily-outlineItem">不定期3時間</li>
+                                            <li class="daily-outlineItem">全員参加</li>
+                                        </ul>
+                                        <div class="daily-description">
+                                            <p>ご飯を食べながら作業をします。表参道の美味しいお店をたくさん発見できることが楽しいです！</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </li>
                     </ul>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
-    
     </main>
+    <section class="cta">
+        <h2 class="cta-title">
+            <img src="./assets/img/icon-line.svg" alt="" width="40" height="40">
+            POSSE　公式 LINE
+        </h2>
+        <div class="cta-content">
+            <p>公式 LINE にてご質問を随時受け付けております。<br/> 詳細や POSSE 最新情報につきましては、公式 LINE にてお知らせ致しますので <br/> 下記ボタンより友達追加をお願いします！
+            </p>
+        </div>
+        <div class="cta-footer">
+            <a href="https://line.me/R/ti/p/@651htnqp?from=page"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="cta-button">
+            LINE追加
+    <!-- SVG ボタンの右側のアイコンを追加するHTML -->
+            <svg
+    class="cta-icon"
+    fill="none"
+    height="15"
+    viewBox="0 0 14 15"
+    width="14"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+    <clipPath id="a">
+    <path d="m0 .693604h14v14h-14z" />
+    </clipPath>
+    <g
+    clip-path="url(#a)"
+    stroke="#0071bc"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    >
+    <path
+    d="m12.5416 8.27698v5.05752c0 .5891-.4783 1.0675-1.0675 1.0675h-10.11497c-.589171 0-1.067504-.4784-1.067504-1.0675v-10.11502c0-.58917.478333-1.0675 1.067504-1.0675h5.0575"
+    />
+    <path d="m10.2084.985229h3.5" />
+    <path d="m13.7084 4.48523v-3.500001" />
+    <path d="m7.29163 7.4019 6.41667-6.416671" />
+    </g>
+</svg>
+            </a>
+        </div>
+    </section>
 <footer class="footer">
     <div class="footer-inner">
         <a href="./" class="footer-logo"> 
